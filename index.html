@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Video Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<main>
+		<h4 class="header-title"><center>Web Player</center></h4>
+
+		<div id="video-container">
+			<video id="video-player" controls></video>
+		</div>
+
+		<form id="video-form">
+			<label for="video-link">Enter Video Link:</label>
+			<input type="text" id="video-link" required>
+			<div class="button-container">
+				<button type="submit" id="play-btn"></i> Play Video</button>
+				<button type="button" id="play-pause-btn"></i>Pause</button>
+			</div>
+		</form>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
